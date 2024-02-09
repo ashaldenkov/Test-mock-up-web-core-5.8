@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css"> 
+</head>
+<body>
+<div class="container">
+    <div class="main-nav">
+        <div class="main-nav__menu-button tablet-menu not-pc-menu">
+            <button class="main-nav__menu-button">
+                <svg height="40" width="40" class="header__icon_dropdown">
+                    <symbol id="icon" viewBox="0 0 40 40"> 
+                        <rect width="40" height="40" rx="20" fill="#FF3E79"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11 13C11 12.4477 11.4477 12 12 12H28C28.5523 12 29 12.4477 29 13C29 13.5523 28.5523 14 28 14H12C11.4477 14 11 13.5523 11 13ZM11 20C11 19.4477 11.4477 19 12 19H20C20.5523 19 21 19.4477 21 20C21 20.5523 20.5523 21 20 21H12C11.4477 21 11 20.5523 11 20ZM12 26C11.4477 26 11 26.4477 11 27C11 27.5523 11.4477 28 12 28H24C24.5523 28 25 27.5523 25 27C25 26.4477 24.5523 26 24 26H12Z" fill="white"/>
+                    </symbol>
+                    <use xlink:href="#icon" x="0" y="0" width="100%" height="100%"/>     
+                </svg>
+                <div class="main-nav__dropdown">
+                    <a href="#">О Нас</a>
+                    <a href="#">Контакты</a>
+                    <a href="#">Оформить заказ</a>
+                </div>
+        </div>
+        <div class="main-nav__delimeter tablet-menu not-pc-menu">
+            <svg width="2" height="32" viewBox="0 0 2 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="2" height="32" rx="1" fill="#EAEAEA"/>
+                </svg>
+        </div>
+        <div class="main-nav__image tablet-menu not-pc-menu">
+            <img src="https://github.com/ashaldenkov/Study/blob/main/Group.png?raw=true"
+            alt="logo">
+        </div>
+        <div class="main-nav__call-image tablet-only tablet-menu-right big-tab">
+            <img src="https://github.com/ashaldenkov/Study/blob/main/call.png?raw=true"
+            alt="call-icon">
+        </div>
+        <div class="main-nav__chat-image tablet-only tablet-menu-right">
+            <img src="https://github.com/ashaldenkov/Study/blob/main/chat.png?raw=true"
+            alt="chat-icon">
+        </div>
+        <div class="main-nav__profile-image tablet-only tablet-menu-right">
+            <img src="https://github.com/ashaldenkov/Study/blob/main/profile.png?raw=true"
+            alt="profile-icon">
+        </div>
+        <div class="main-nav__delimeter tablet-only tablet-menu-right">
+            <svg width="2" height="32" viewBox="0 0 2 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="2" height="32" rx="1" fill="#EAEAEA"/>
+                </svg>
+        </div>
+        <div class="main-nav__repair tablet-menu-right pc-repair">
+            <img src="https://github.com/ashaldenkov/Study/blob/main/repair.png?raw=true" alt="repair">
+        </div>
+        <div class="main-nav__checkstatus tablet-menu-right pc-status">
+            <img src="https://github.com/ashaldenkov/Study/blob/main/checkstatus.png?raw=true" alt="checkstatus">
+        </div>
+    </div>
+    <div class="content">
+        <div class="content__title">
+            <svg  height="40" width="4" class="content__title-line">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M4 4C4 1.79086 2.20914 0 0 0V40C2.20914 40 4 38.2091 4 36V4Z" fill="#41F6D7"/>
+            </svg>
+            <h1 class="content__title-text">Услуги и сервисы</h1>
+        </div>
+        <div class="content__scroll">
+            <ul class="menu-list">
+                <li class="item choice_1">
+                        <a href="#text1" >Ремонтируемые устройства</a>
+                </li>
+                <li class="item choice_2">
+                    <a href="#text2" >Дополнительные услуги</a>
+                </li>
+                <li class="item choice_3">
+                    <a href="#text3" >Цены на услуги</a>
+                </li>
+                <li class="item choice_4">
+                    <a href="#">Адреса сервисных центров</a>
+                </li>
+                <li class="item choice_5">
+                    <a href="#" >Специальные цены</a>
+                </li>
+                <li class="item choice_6">
+                    <a href="#" >Отзывы</a>
+                </li>
+            </ul>
+        </div>
+        <div class="content__body">
+            <div class="content__text" id="text1">
+                <p class="content__text-first">
+                    Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас выможете отремонтировать свой ноутбук Dell с официальной гарантией производителя. 
+                </p>
+                <p class="content__text-second">
+                    Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера
+                </p>
+                <button class="content__button-read-next">
+                    <a href="#text1" class="content__link-read-next">
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="content__next-button">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5001 7.50008L12.0001 10.0001L9.50008 7.50008C9.22393 7.22393 8.77622 7.22393 8.50008 7.50008C8.22393 7.77622 8.22393 8.22393 8.50008 8.50008L11.293 11.293C11.6835 11.6835 12.3167 11.6835 12.7072 11.293L15.5001 8.50008C15.7762 8.22393 15.7762 7.77622 15.5001 7.50008C15.2239 7.22393 14.7762 7.22393 14.5001 7.50008ZM14.5001 13.5001L12.0001 16.0001L9.50008 13.5001C9.22393 13.2239 8.77622 13.2239 8.50008 13.5001C8.22393 13.7762 8.22393 14.2239 8.50008 14.5001L11.293 17.293C11.6835 17.6835 12.3167 17.6835 12.7072 17.293L15.5001 14.5001C15.7762 14.2239 15.7762 13.7762 15.5001 13.5001C15.2239 13.2239 14.7762 13.2239 14.5001 13.5001Z" fill="#41F6D7"/>
+                        </svg>
+                        <p class="content__next-text">Читать далее</p>
+                    </a>
+                </button>
+            </div>
+            <div class="content__image">
+                <img src="https://s3-alpha-sig.figma.com/img/5cae/db2b/ec28084f3de98850700667e14dbc02fd?Expires=1708300800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EU6e1ROvIzzXrnGKWtK1cRtW-aqs6JHmKqTBaSi58G0~aLLrl4AXDpaoH~M2K2UreTFIUwxSd8pjMH3hv8UzaDJehoFacEZQN5D3zZosFcQkIecGDkz3QJFfF0jY9ZgOOeGsUc3Ze8n4XeRW4gqHpVB51CNokiVcS6xsy5hlgD3ESn9GvumGPn-eFw7NGwCx8wR0fmcRkWikrjMzFCYKBBeN6iP0Mh6CaLnKaHu3WB3ocPecoSI~CFTw~zzEVHHpCGPtgCRD7ulRVyvgzw1EH7jJxFp~QSFWh7hdqQAbhZP6cyo4oBmMHH8X7VDHpxlkDjthG4cahrbbwnFkb0eB3A__"
+                alt="our-office" class="content__image-1">
+            </div>
+    </div>
+</div>
+</body>
+</html>
