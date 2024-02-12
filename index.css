@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'TT Lakes Regular';
-    src: url('/TTLakes/TTLakes-Regular.eot');
-    src: url('/TTLakes/TTLakes-Regular.eot') format('embedded-opentype'),
-    url('/TTLakes/TTLakes-Regular.woff') format('woff'),
-    url('/TTLakes/TTLakes-Regular.ttf') format('truetype');
+    src: url('TTLakes-Regular.eot');
+    src: url('TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+    url('TTLakes-Regular.woff') format('woff'),
+    url('TTLakes-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+    }
 
 
     body {
-        font-family: 'TT Lakes Regular', sans-serif;
+        font-family: 'TT Lakes Regular';
         margin: 0px;
     }
 
